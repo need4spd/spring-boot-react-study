@@ -7,7 +7,7 @@
         document.getElementById("events").appendChild(el);
     }
 
-    var eventSource = new EventSource("/temperature-stream");
+    var eventSource = new EventSource("/temperature-stream-reactivex");
     eventSource.onmessage = e => {
         const t = JSON.parse(e.data);
         const fixed = Number(t.value).toFixed(2);

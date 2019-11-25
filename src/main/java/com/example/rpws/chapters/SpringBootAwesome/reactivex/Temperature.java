@@ -1,4 +1,4 @@
-package com.example.rpws.chapters.SpringBootAwesome;
+package com.example.rpws.chapters.SpringBootAwesome.reactivex;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,8 +7,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @Setter
 @Getter
-public final class Temperature {
-
+final class Temperature {
     private final double value;
-
 }

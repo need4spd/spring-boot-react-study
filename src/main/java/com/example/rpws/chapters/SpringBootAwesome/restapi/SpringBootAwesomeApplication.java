@@ -1,4 +1,4 @@
-package com.example.rpws.chapters.SpringBootAwesome;
+package com.example.rpws.chapters.SpringBootAwesome.restapi;
 
 import org.springframework.aop.interceptor.AsyncUncaughtExceptionHandler;
 import org.springframework.aop.interceptor.SimpleAsyncUncaughtExceptionHandler;

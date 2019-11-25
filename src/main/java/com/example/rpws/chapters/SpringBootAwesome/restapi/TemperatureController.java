@@ -1,4 +1,4 @@
-package com.example.rpws.chapters.SpringBootAwesome;
+package com.example.rpws.chapters.SpringBootAwesome.restapi;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.event.EventListener;
@@ -21,7 +21,7 @@ public class TemperatureController {
     private final Set<SseEmitter> clients = new CopyOnWriteArraySet<>();
 
     @RequestMapping(
-            value = "/temperature-stream",
+            value = "/temperature-stream-async",
             method = RequestMethod.GET)
     public SseEmitter events(HttpServletRequest request) {
         SseEmitter emitter = new SseEmitter();

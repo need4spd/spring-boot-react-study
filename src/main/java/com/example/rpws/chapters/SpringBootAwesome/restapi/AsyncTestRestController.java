@@ -1,4 +1,4 @@
-package com.example.rpws.chapters.SpringBootAwesome;
+package com.example.rpws.chapters.SpringBootAwesome.restapi;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
